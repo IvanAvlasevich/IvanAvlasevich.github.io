@@ -1,0 +1,286 @@
+body {
+  overflow:scroll;
+  margin: 0;
+  font-family: 'Inter' -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  font-family: 'Inter';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  align-items:center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.wrapper {
+  /* Rectangle 17 */
+
+margin: 50px auto;
+width: 1080px;
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+border-radius: 20px;
+}
+
+header {
+  display: flex;//выравнивание элементов
+  justify-content: space-between;//Распределение элементов равномерно по горизонтали
+  padding: 40px;
+
+  .headerLeft{
+    display: flex;
+    align-items: center;
+  }
+  h3,p {
+    margin: 0;
+  }
+  p{opacity: 0.5;}
+  h3{ 
+    text-transform: uppercase; 
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    }
+  img {
+    margin-right: 15px;
+  }
+}
+
+.clear {
+  .headerRight {
+    display:flex;
+    margin: 0;
+    padding: 0;
+  }
+  .header_li {
+    list-style-type: none; //убирает точки в элементе списка
+    margin-right: 30px;
+  }
+}
+
+
+
+//С этого момента часть с кросссовками
+.content{
+  padding: 40px;
+  h1{
+    font-family: Inter;
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
+
+
+
+
+.content_card{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+h1{
+  display: inline-block;
+}
+
+.search_block{
+   border: 1px solid #F3F3F3;
+   display:flex;
+   border-radius: 10px;
+   padding: 0 15px;
+   //position: relative;
+   
+
+  input{
+    display: block;
+    border:0;
+    padding: 13px;
+    font-size: 16px;
+    width: 200px;
+    position: relative;
+    
+    .clear {
+     // display: flex;
+      position:absolute;
+      right: 0px;
+      cursor: pointer;
+    }
+
+    .search {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+    
+    }
+  }
+}
+
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.drawer{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 400px;
+  right: 0;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  .h2{
+    margin: 0;
+  }
+}
+
+.cartTotalBlock{
+  ul{
+    margin-bottom: 30px !important;
+  }
+  li{
+    
+    display: flex;
+    align-items:flex-end;//после этого правила опустилась линия у дива
+    margin-bottom: 20px;
+  }
+  div{
+    flex:1;
+    height: 1px;
+    border-bottom: 1px dashed #dfdfdf;
+    position: relative;
+    top:-4px;
+    margin: 0 7px;
+  }
+
+  button{
+    width: 100%;
+    position: relative;
+    height: 55px;
+    background: #9DD558;
+    border-radius: 18px;
+    border:0;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+    &:disabled {
+      background-color: #bebebe;
+    }
+
+    &:hover {
+      background: lighten($color: #9DD558, $amount: 10%)
+    }
+    &:active{
+      background:darken($color: #9DD558, $amount: 10%)
+    }
+    &:hover{
+      img{
+        transform: translateX(10px);
+      }
+     
+    }
+    img{
+      position: absolute;
+      right: 40px;
+      top:20px;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+}
+}
+
+.items{
+  flex: 1;
+  overflow: auto;
+}
+.cartItem{
+
+  border: 1px solid #F3F3F3;
+  border-radius: 20px;
+  overflow: hidden;//Контент обрезается, без предоставления прокрутки.
+  p{
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  b{
+    font-size: 14px;
+  }
+}
+
+.close{
+  opacity: 0.3;//прозрачность
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.items{
+  overflow: auto;
+}
+
+.cartEmpty{
+  text-align: center;
+
+  h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    height: 55px;
+    background: #9DD558;
+    border-radius: 18px;
+    border:0;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      background: lighten($color: #9DD558, $amount: 10%);
+   
+    }
+    &:active{
+      background:darken($color: #9DD558, $amount: 10%)
+    }
+    &:hover{
+      img{
+        transform: rotate(180deg) translateX(3px);
+      }
+     
+    }
+    img{
+      position: relative;
+      margin-right:10px;
+      transform: rotate(180deg);
+      top:1px;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+}
+}
