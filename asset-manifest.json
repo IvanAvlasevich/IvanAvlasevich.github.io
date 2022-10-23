@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/IvanAvlasevich.github.io/static/css/main.42ff303d.css",
-    "main.js": "/IvanAvlasevich.github.io/static/js/main.d88ac1de.js",
+    "main.js": "/IvanAvlasevich.github.io/static/js/main.e16793b0.js",
     "index.html": "/IvanAvlasevich.github.io/index.html",
     "main.42ff303d.css.map": "/IvanAvlasevich.github.io/static/css/main.42ff303d.css.map",
-    "main.d88ac1de.js.map": "/IvanAvlasevich.github.io/static/js/main.d88ac1de.js.map"
+    "main.e16793b0.js.map": "/IvanAvlasevich.github.io/static/js/main.e16793b0.js.map"
   },
   "entrypoints": [
     "static/css/main.42ff303d.css",
-    "static/js/main.d88ac1de.js"
+    "static/js/main.e16793b0.js"
   ]
 }
