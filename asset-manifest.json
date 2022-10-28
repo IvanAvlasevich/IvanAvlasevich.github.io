@@ -1,13 +1,35 @@
 {
   "files": {
     "main.css": "/IvanAvlasevich.github.io/static/css/main.42ff303d.css",
-    "main.js": "/IvanAvlasevich.github.io/static/js/main.0782084e.js",
+    "main.js": "/IvanAvlasevich.github.io/static/js/main.e5e7c6a4.js",
+    "static/media/frog.png": "/IvanAvlasevich.github.io/static/media/frog.0845db37936a566b178e.png",
+    "static/media/image_9.jpg": "/IvanAvlasevich.github.io/static/media/image_9.0f85f13d6203939a1564.jpg",
+    "static/media/image_2.jpg": "/IvanAvlasevich.github.io/static/media/image_2.f452253d27ca389b9e4d.jpg",
+    "static/media/image_5.jpg": "/IvanAvlasevich.github.io/static/media/image_5.d2e91e783c6966a56976.jpg",
+    "static/media/image_8.jpg": "/IvanAvlasevich.github.io/static/media/image_8.d3037e7d1857d0391ca1.jpg",
+    "static/media/image_4.jpg": "/IvanAvlasevich.github.io/static/media/image_4.d921a1acf7f30adc3bda.jpg",
+    "static/media/image_6.jpg": "/IvanAvlasevich.github.io/static/media/image_6.ab1729f120dbab9cb1e4.jpg",
+    "static/media/image_10.jpg": "/IvanAvlasevich.github.io/static/media/image_10.38f3cf0e8421f5304ba7.jpg",
+    "static/media/image_7.jpg": "/IvanAvlasevich.github.io/static/media/image_7.3489f9218a17cec48d40.jpg",
+    "static/media/image_1.jpg": "/IvanAvlasevich.github.io/static/media/image_1.2444684cf38d60a5c7cf.jpg",
+    "static/media/image_3.jpg": "/IvanAvlasevich.github.io/static/media/image_3.b343f88d6e8f3b1a95db.jpg",
+    "static/media/list_chacked.png": "/IvanAvlasevich.github.io/static/media/list_chacked.28c53daaf8eec94f5429.png",
+    "static/media/btn-checked.svg": "/IvanAvlasevich.github.io/static/media/btn-checked.890c21e6e092e231b04d7f8d3b23767a.svg",
+    "static/media/heart-unliked.svg": "/IvanAvlasevich.github.io/static/media/heart-unliked.b7857eaf913ead52541f91647497a501.svg",
+    "static/media/favorite_header.svg": "/IvanAvlasevich.github.io/static/media/favorite_header.31c528b014374dd8bafb45d68779796e.svg",
     "index.html": "/IvanAvlasevich.github.io/index.html",
+    "static/media/heart-liked.svg": "/IvanAvlasevich.github.io/static/media/heart-liked.2a7f884671a17364cb52939425ca405f.svg",
+    "static/media/user.svg": "/IvanAvlasevich.github.io/static/media/user.381202f7e3edbc1a00b14fbd5e529a32.svg",
+    "static/media/cart.svg": "/IvanAvlasevich.github.io/static/media/cart.13b30700bcb8292bc12b12b5bae15a2a.svg",
+    "static/media/search.svg": "/IvanAvlasevich.github.io/static/media/search.48c52bf5d459537e27c07f88eb08c050.svg",
+    "static/media/close.svg": "/IvanAvlasevich.github.io/static/media/close.b1fef0aa93fbf25374f4991d23f900d8.svg",
+    "static/media/plus.svg": "/IvanAvlasevich.github.io/static/media/plus.a4c35ddbacd9564e07efd7494cfde80d.svg",
+    "static/media/arrow.svg": "/IvanAvlasevich.github.io/static/media/arrow.fc3222511ec5a224a4abf3bbf4c2566f.svg",
     "main.42ff303d.css.map": "/IvanAvlasevich.github.io/static/css/main.42ff303d.css.map",
-    "main.0782084e.js.map": "/IvanAvlasevich.github.io/static/js/main.0782084e.js.map"
+    "main.e5e7c6a4.js.map": "/IvanAvlasevich.github.io/static/js/main.e5e7c6a4.js.map"
   },
   "entrypoints": [
     "static/css/main.42ff303d.css",
-    "static/js/main.0782084e.js"
+    "static/js/main.e5e7c6a4.js"
   ]
 }
